@@ -1,0 +1,31 @@
+INSERT INTO tbl_cards (
+    hp, name, info, attack, damage, weakness, resistance, retreat,
+    card_number_in_collection, collection_id, type_id, stage_id
+)
+VALUES
+(80, 'Gengar', 'Shadow Pokémon', 'Nightmare', '30', 'Dark', 'Fighting', '2',
+ 5, 2, 5, 2),
+(90, 'Machamp', 'Superpower Pokémon', 'Seismic Toss', '60', 'Psychic', NULL, '3',
+ 8, 1, 6, 3),
+(70, 'Eevee', 'Evolution Pokémon', 'Quick Attack', '20', 'Fighting', NULL, '1',
+ 55, 2, 7, 1),
+(100, 'Snorlax', 'Sleeping Pokémon', 'Body Slam', '50', 'Fighting', 'Psychic', '4',
+ 11, 2, 7, 2),
+(60, 'Meowth', 'Scratch Cat Pokémon', 'Pay Day', '20', 'Fighting', NULL, '1',
+ 56, 1, 7, 1),
+(110, 'Lapras', 'Transport Pokémon', 'Water Gun', '30', 'Lightning', 'Fire', '2',
+ 10, 3, 3, 1),
+(90, 'Arcanine', 'Legendary Pokémon', 'Flamethrower', '50', 'Water', NULL, '3',
+ 23, 1, 2, 2),
+(70, 'Oddish', 'Weed Pokémon', 'Absorb', '20', 'Fire', 'Water', '1',
+ 58, 2, 1, 1),
+(80, 'Hypno', 'Hypnosis Pokémon', 'Meditate', '30', 'Psychic', NULL, '2',
+ 27, 3, 5, 2),
+(100, 'Hitmonlee', 'Kicking Pokémon', 'Stretch Kick', '50', 'Psychic', NULL, '2',
+ 22, 3, 6, 1),
+(60, 'Clefairy', 'Fairy Pokémon', 'Metronome', '0', 'Steel', 'Dark', '1',
+ 5, 1, 7, 1),
+(70, 'Poliwag', 'Tadpole Pokémon', 'Water Gun', '20', 'Lightning', 'Fire', '1',
+ 60, 1, 3, 1),
+(120, 'Dragonite', 'Dragon Pokémon', 'Hyper Beam', '70', 'Ice', 'Fire', '4',
+ 4, 1, 7, 3);
